@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  text-align: center;
+}
+
+h1 {
+  color: darkgrey;
+  font-size: 3em;
+}
+
+a {
+  font-size: 2em;
+  color: #819081;
+}
+
+.readme {
+  font-size: 1.5rem;
+  color: bisque;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
