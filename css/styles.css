@@ -1,10 +1,10 @@
 body {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   background-color: black;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
 }
 
 h1 {
@@ -13,17 +13,23 @@ h1 {
 }
 
 a {
-  font-size: 2em;
   color: #819081;
+  font-size: 2em;
+  margin: 0.15em;
 }
 
 .readme {
-  font-size: 1.5rem;
   color: bisque;
+  font-size: 1.5rem;
 }
 
 div {
+  align-items: center;
+  border: 2px solid darkgray;
+  border-radius: 2em;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 1.5em;
+  padding: 10px;
+  width: 80vw;
 }
